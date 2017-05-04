@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_my_ants_credit"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yswcustomizeview.mActivity.MyAntsCreditActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.yswcustomizeview.mAntscreditView.RoundIndicatorView
+                android:id="@+id/mAntscreditView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:visibility="visible"/>
+
+            <com.yswcustomizeview.mAntscreditView.AntsCreditView
+                android:id="@+id/mAntscreditView1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mAntscreditView"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mAntscreditView1"
+                android:layout_centerHorizontal="true"
+                android:text="change"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

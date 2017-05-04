@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.yswcustomizeview"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".mActivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".mActivity.MyPasswordActivity">
+        </activity>
+        <activity android:name=".mActivity.MultiScreenActivity">
+        </activity>
+        <activity android:name=".mActivity.MyViewGroupActivity">
+        </activity>
+        <activity android:name=".mActivity.MyActivity">
+        </activity>
+        <activity android:name=".mActivity.MyScrollerActivity">
+        </activity>
+        <activity android:name=".mActivity.MyTextViewActivity">
+        </activity>
+        <activity android:name=".mActivity.MyFlowLayoutActivity">
+        </activity>
+        <activity android:name=".mActivity.MyScrollerLayoutActivity">
+        </activity>
+        <activity android:name=".mActivity.MySlidingMenuActivity">
+        </activity>
+        <activity android:name=".mActivity.MySlideActivity">
+        </activity>
+        <activity android:name=".mActivity.MyImageButtomActivity">
+        </activity>
+        <activity android:name=".mActivity.MyRecycleActivity">
+        </activity>
+        <activity android:name=".mActivity.MyRxJavaActivity">
+        </activity>
+        <activity android:name=".mActivity.FirstActivity">
+        </activity>
+        <activity android:name=".mActivity.MyAntsCreditActivity">
+        </activity>
+        <activity android:name=".mActivity.MyAnimationActivity">
+        </activity>
+
+        <service
+            android:name=".mService.QHBAccessibilityService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="@string/service"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config"/>
+        </service>
+
+        <activity android:name=".mActivity.MyCityActivity">
+        </activity>
+        <activity android:name=".mActivity.MyProgressBarActivity">
+        </activity>
+        <activity android:name=".mActivity.MyRotateAnimationActivity">
+        </activity>
+        <activity android:name=".mActivity.MyVerticalScrollLayoutActivity">
+        </activity>
+    </application>
+
+</manifest>

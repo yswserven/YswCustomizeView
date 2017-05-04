@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorProgressBackGround">#cdcdcd</color>
+    <color name="mcolor">#fa4451</color>
+    <color name="blue_background">#0980DA</color>
+
+    <color name="dark_text">#093b7c</color>
+    <!-- 黑色字体颜色 -->
+    <color name="dark">#333333</color>
+    <!-- 蓝色字体颜色 -->
+    <color name="blueness">#1F7EE9</color>
+    <!-- 灰色字体颜色 -->
+    <color name="gray_text">#9c9d9d</color>
+    <!-- 灰色背景颜色 -->
+    <color name="ashen_bg">#F2F2F2</color>
+    <!-- 透明色 -->
+    <color name="translate">@android:color/transparent</color>
+    <!-- 白色 -->
+    <color name="white">@android:color/white</color>
+
+    <color name="black">#000000</color>
+
+    <color name="one_dp_line">#dcdcdc</color>
+</resources>

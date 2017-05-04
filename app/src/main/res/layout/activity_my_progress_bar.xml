@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_my_progress_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.yswcustomizeview.mActivity.MyProgressBarActivity">
+
+    <com.yswcustomizeview.mProgressBar.RoundProgressBar
+        android:id="@+id/pb_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+    </com.yswcustomizeview.mProgressBar.RoundProgressBar>
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:text="开始计时"/>
+</RelativeLayout>

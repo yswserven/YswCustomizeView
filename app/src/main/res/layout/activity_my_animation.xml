@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_my_animation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yswcustomizeview.mActivity.MyAnimationActivity">
+
+    <com.yswcustomizeview.mViewGroup.RegisterViewGroup
+        android:id="@+id/vg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_first"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#D85DD8">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_second"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#0E72E2">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_three"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FF6D6D">
+
+        </RelativeLayout>
+
+    </com.yswcustomizeview.mViewGroup.RegisterViewGroup>
+
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vg_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="开始动画"/>
+
+    <Button
+        android:id="@+id/bt_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_start"
+        android:layout_alignStart="@+id/bt_start"
+        android:layout_below="@+id/rl_color"
+        android:layout_marginTop="26dp"
+        android:text="开始着色"/>
+
+    <com.yswcustomizeview.mAnimation.BezierCurve
+        android:id="@+id/bezierCurve"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bt_color"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"/>
+
+    <!--<com.yswcustomizeview.mAnimation.ClipPath-->
+        <!--android:id="@+id/clipPath"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_below="@+id/bezierCurve"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+    <Button
+        android:id="@+id/bt_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:layout_toStartOf="@+id/bt_color"
+        android:text="开始动画"/>
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bt_change"
+        android:layout_toEndOf="@+id/bt_color"
+        android:text="开始删除"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/bt_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#E9F6FF">
+
+    </RelativeLayout>
+</RelativeLayout>

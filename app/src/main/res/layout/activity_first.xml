@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_first"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yswcustomizeview.mActivity.FirstActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.yswcustomizeview.mProgressBar.SimpleProgressBar
+                android:id="@+id/mProgress"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="20dp"
+                app:Progress="20"
+                app:ProgressBackground="#E0007F"
+                app:ProgressColor="#007FE0"
+                app:ProgressMax="100"/>
+
+            <com.yswcustomizeview.mDataView.DateView
+                android:id="@+id/mDateview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mProgress"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <com.yswcustomizeview.mWaveView.WaveView
+                android:id="@+id/mWaveview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mDateview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <com.yswcustomizeview.mPieChart.PieChart
+                android:id="@+id/mLinechart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mWaveview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <com.yswcustomizeview.mPassWordView.PasswordView
+                android:id="@+id/passwordview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mLinechart"/>
+
+            <com.yswcustomizeview.mLines.Line
+                android:id="@+id/mline"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_below="@+id/passwordview"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/mButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mline"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="点击改变数据"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

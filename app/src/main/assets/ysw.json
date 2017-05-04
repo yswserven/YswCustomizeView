@@ -1,0 +1,17 @@
+[
+  {
+    "name":"zhangsan",
+    "age": 156,
+    "love":"app"
+  },
+  {
+    "name":"lisi",
+    "age": 16,
+    "love":"gaoshu"
+  },
+  {
+    "name":"wangwu",
+    "age": 36,
+    "love":"gaoshu"
+  }
+]

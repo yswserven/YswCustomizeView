@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<com.yswcustomizeview.ViewGroupDemo.McoyScrollView-->
+<ScrollView
+    android:id="@+id/product_scrollview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1f1f5"
+    android:fadeScrollbars="true"
+    android:fillViewport="true"
+    android:focusable="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:text="aaaa"/>
+
+    </LinearLayout>
+
+</ScrollView>

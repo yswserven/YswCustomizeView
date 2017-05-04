@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yswcustomizeview.mActivity.MyFlowLayoutActivity">
+
+    <com.yswcustomizeview.mViewGroup.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/text_bg"
+            android:text="杨胜文"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="吴士胜"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="涂良坛"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="恋爱ing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="打酱油ing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="约会ing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="撩妹ing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="吴大申backing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="努力ing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="吹牛逼ing"/>
+
+        <TextView
+            style="@style/text_bg"
+            android:text="生命不息，奋斗不止"/>
+
+    </com.yswcustomizeview.mViewGroup.FlowLayout>
+</RelativeLayout>
